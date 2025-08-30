@@ -41,9 +41,16 @@
   border-radius: 8px;
   background: var(--color-grey-700);
 }
+.btn:focus {
+  outline: 2px solid var(--color-green);
+  outline-offset: 2px;
+  background-color: var(--color-green);
+  color: var(--color-grey-700);
+}
 
 .btn:hover {
   background-color: var(--color-green);
+  color: var(--color-grey-700);
 }
 
 main {
